@@ -8,29 +8,64 @@ input[type=text],[type=email],[type=tel],[type=date]{
     box-sizing: border-box;
   }
   
-  input[type=button] {
+input[type=button] {
     width: 100%;
-    background-color: #4CAF50;
+    background-color:  #009879;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-  }
+}
   
-  input[type=button]:hover {
+input[type=button]:hover {
     background-color: #45a049;
-  }
+}
   
-  #container{
+#container{
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
-  }
+}
 
-  #show{
+#show{
     border-radius: 5px;
     background-color: #f2f2f2;
-    padding: 20px; 
-  }
+    padding: 20px;
+    visibility: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table{
+    justify-content: center;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+th, tr{
+    padding: 12px 15px;
+}
+
+thead{
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+
+tbody{
+    border-bottom: 1px solid #dddddd;
+}
+
+h1{
+    text-align: center;
+}
+label{
+    float: left;
+}
